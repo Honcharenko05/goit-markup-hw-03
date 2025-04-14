@@ -43,10 +43,11 @@ img {
   margin-right: auto;
 }
 .header-container {
-  display: block;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px 0;
+  padding: 0 15px;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -54,7 +55,7 @@ img {
 }
 
 .nav {
-  display: block;
+  display: flex;
   align-items: center;
   gap: 40px;
 }
@@ -77,6 +78,7 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
+  margin-right: 76px;
 }
 
 .header-logo-studio {
@@ -151,7 +153,7 @@ img {
   max-width: 1140px;
 }
 .section {
-  padding: 120px 0px 120px 0px;
+  padding: 188px 0;
 }
 .main-block-item {
   font-weight: 700;
@@ -164,6 +166,9 @@ img {
   margin: 0 auto 48px auto;
 }
 .main-block-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
   background-color: #4d5ae5;
   color: #ffffff;
   border: none;
@@ -233,6 +238,7 @@ img {
   padding: 120px 0;
 }
 .team-title {
+  max-width: 496px;
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
@@ -330,6 +336,7 @@ img {
   align-items: flex-start;
 }
 .footer-link-logo {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
