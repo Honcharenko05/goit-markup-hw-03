@@ -52,6 +52,7 @@ button {
   margin: 0 auto;
   padding: 0 15px 0 15px;
   display: flex;
+  align-items: center;
 }
 
 /* ===== Header ===== */
@@ -63,7 +64,7 @@ button {
 .header-navigation {
   display: flex;
   align-items: center;
-  gap: 40px;
+  margin-right: auto;
 }
 
 .header-menu-logo {
@@ -87,6 +88,7 @@ button {
 }
 
 .header-menu-link {
+  display: block;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -135,6 +137,8 @@ button {
   letter-spacing: 0.02em;
   margin-bottom: 48px;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-block-btn {
@@ -149,6 +153,8 @@ button {
   min-width: 169px;
   transition: background-color 250ms ease-in-out;
   height: 56px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-block-btn:hover,
@@ -221,9 +227,7 @@ button {
 .team-list-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  overflow: hidden;
-  width: 264px;
-  padding-bottom: 32px;
+  width: calc((100% - 24px * 3) / 4);
 }
 
 .team-list-subtitle {
@@ -232,7 +236,6 @@ button {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   margin-bottom: 8px;
   color: #2e2f42;
 }
@@ -293,8 +296,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-left: 16px;
-  margin-bottom: 32px;
 }
 
 /* ===== Footer ===== */
