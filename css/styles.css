@@ -46,6 +46,7 @@ button {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
+  display: flex;
 }
 
 /* ===== Header ===== */
@@ -152,6 +153,17 @@ button {
 /* ===== Advantages Section ===== */
 .adventages {
   padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .adventages-section-list {
