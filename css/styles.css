@@ -143,6 +143,7 @@ button {
   border-radius: 4px;
   min-width: 169px;
   transition: background-color 250ms ease-in-out;
+  height: 56px;
 }
 
 .main-block-btn:hover,
